@@ -1,0 +1,17 @@
+
+
+.heart{
+    position: fixed;
+    top: -10vh;
+    animation: fade 2s ease infinite;
+}
+
+@keyframes fade {
+    to{
+      transform: translateY(-5000);
+    }
+
+    from{
+      transform: translateY(0);
+    }
+}
